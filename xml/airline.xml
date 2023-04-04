@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Data>
+<Flight>
+<FlightNumber>123</FlightNumber>
+ <Aircraft>N123X</Aircraft>
+ <Departure> 2000-10-01Z</Departure>
+ <Arrival>2000-10-02Z </Arrival>
+ <Complains><Compain>Ac Issue</Compain></Complains>
+ <Cancelled>No</Cancelled>
+ </Flight>
+
+ <Flight>
+<FlightNumber>123</FlightNumber>
+ <Aircraft>N144X</Aircraft>
+ <Departure> 2001-10-01Z</Departure>
+ <Arrival>2001-10-02Z </Arrival>
+ <Complains>
+ <Compain>Service can be imporved</Compain>
+ <Compain>Flight was delayed</Compain>
+ </Complains>
+ <Delay>true</Delay>
+ <Cancelled>No</Cancelled>
+ </Flight>
+
+ <Flight>
+<FlightNumber>123</FlightNumber>
+ <Aircraft>N199X</Aircraft>
+ <Departure> 2004-09-01Z</Departure>
+ <Arrival>2004-09-02Z </Arrival>
+ <Complains><Compain></Compain></Complains>
+ <Cancelled>Yes</Cancelled>
+ </Flight>
+
+ <Flight>
+<FlightNumber>123</FlightNumber>
+ <Aircraft>N111X</Aircraft>
+ <Departure> 2006-11-01Z</Departure>
+ <Arrival>2006-11-02Z </Arrival>
+ <Complains><Compain></Compain></Complains>
+ <Cancelled>No</Cancelled>
+ <Delay>false</Delay>
+ </Flight>
+</Data>
